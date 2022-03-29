@@ -4,6 +4,7 @@ const {
   getSignelPost,
   createTodo,
   deleteTodo,
+  togggleCheck,
 } = require("../controllers/userTodos");
 router.get("/todos", getTodos);
 
@@ -11,6 +12,8 @@ router.get("/todos", getTodos);
 
 router.post("/create", createTodo);
 
-router.post("/delete/:id", deleteTodo);
+router.delete("/delete/:id", deleteTodo);
+
+router.patch("/togglecheck", togggleCheck);
 
 module.exports = router;

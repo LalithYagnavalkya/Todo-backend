@@ -15,5 +15,13 @@
   "main": "app.js",
   "author": "Lalith yagnavalkya Tirunagari",
   "license": "ISC",
-  "description": ""
+  "description": "Created a simple backend server which performs CRED operations.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LalithYagnavalkya/Todo-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LalithYagnavalkya/Todo-backend/issues"
+  },
+  "homepage": "https://github.com/LalithYagnavalkya/Todo-backend#readme"
 }
